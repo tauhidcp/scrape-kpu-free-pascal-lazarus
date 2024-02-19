@@ -1,0 +1,93 @@
+object Form1: TForm1
+  Left = 343
+  Height = 325
+  Top = 201
+  Width = 449
+  BorderIcons = [biSystemMenu]
+  Caption = 'Scrape Website KPU (https://pemilu2024.kpu.go.id/)'
+  ClientHeight = 325
+  ClientWidth = 449
+  Position = poScreenCenter
+  LCLVersion = '2.2.2.0'
+  object Button1: TButton
+    Left = 264
+    Height = 32
+    Top = 8
+    Width = 168
+    Caption = 'Ambil Data Kab/Kota'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 304
+    Top = 8
+    Width = 240
+    ScrollBars = ssVertical
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 264
+    Height = 33
+    Top = 48
+    Width = 168
+    Caption = 'Ambil Data Kecamatan'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 264
+    Height = 32
+    Top = 88
+    Width = 168
+    Caption = 'Ambil Data Kelurahan/Desa'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 264
+    Height = 32
+    Top = 128
+    Width = 168
+    Caption = 'Ambil Data TPS'
+    OnClick = Button4Click
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 264
+    Height = 33
+    Top = 167
+    Width = 171
+    Caption = 'Ambil Hasil Perhitungan'
+    OnClick = Button5Click
+    TabOrder = 5
+  end
+  object GroupBox1: TGroupBox
+    Left = 264
+    Height = 105
+    Top = 208
+    Width = 172
+    Caption = 'C1 Hasil/Plano'
+    ClientHeight = 85
+    ClientWidth = 168
+    TabOrder = 6
+    object Button6: TButton
+      Left = 8
+      Height = 25
+      Top = 8
+      Width = 144
+      Caption = 'Buka C1 Hasil/Plano'
+      OnClick = Button6Click
+      TabOrder = 0
+    end
+    object Button7: TButton
+      Left = 8
+      Height = 25
+      Top = 43
+      Width = 147
+      Caption = 'Download C1'
+      OnClick = Button7Click
+      TabOrder = 1
+    end
+  end
+end
