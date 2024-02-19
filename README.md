@@ -1,7 +1,7 @@
-# scrape-kpu-free-pascal-lazarus
-Mengambil data dari website KPU (https://pemilu2024.kpu.go.id/) dengan Metode Scraping Melalui Teknik Browser Automation di Free Pascal Lazarus
+# scrape website kpu menggunakan free pascal dan lazarus
+Mengambil data dari website Komisi Pemilihan Umum (KPU) dengan Metode Scraping dan Teknik Browser Automation di Free Pascal Lazarus
 
-##Requirement :
+## Requirement :
 - Synapse
 - Chrome Driver
 - WebDriver4L
